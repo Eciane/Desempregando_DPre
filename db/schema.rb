@@ -46,7 +46,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_08_205111) do
     t.string "name"
     t.string "email"
     t.string "phone"
-    t.date "brithday"
     t.bigint "user_id", null: false
     t.bigint "position_id", null: false
     t.datetime "created_at", null: false
@@ -69,7 +68,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_08_205111) do
     t.integer "career"
     t.integer "contract"
     t.boolean "remote"
-    t.boolean "full_time"
     t.string "city"
     t.string "state"
     t.text "summary"
